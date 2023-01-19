@@ -1,0 +1,128 @@
+/* color: #5981A9;
+font-family: 'Noto Sans', sans-serif;
+font-size: 14px;
+font-weight: normal;
+text-transform: none;
+line-height: 1.8;
+letter-spacing: normal; */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+.background1{
+    background-image: url(/Users/saran/Desktop/react-form/reactform/public/istockphoto-995719694-612x612.jpeg);
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #3498DB;
+    border-style: none;
+    padding: 36px;
+    box-shadow: 0px 0px 0px 0px #d5cef3;
+    height: fit-content;
+    width: 60%;
+    margin-top: 50px;
+}
+#ecsimg{
+    height: 75px;
+    width: fit-content;
+}
+
+.form{
+    text-align: right;
+    height: fit-content;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+input{
+    line-height: 50px;
+    width: 100px;
+    width: 75%;
+    margin: 5px; 
+}
+.field1
+.field2
+.field3
+.field4
+.field5
+.field6{
+    
+    width: -25%;
+    height: 50px;
+    margin: 0;
+    padding-block-start: 5px;
+    padding-block-end: 0;
+    padding-inline-start: 20px;
+    padding-inline-end: 0;
+    
+}
+.formbutton{
+    width: fit-content;
+    height: 40px;
+    background-color: orange;
+    width: 150px;
+    margin-left: 50%;
+}
+
+.growbutton{
+  cursor: pointer;
+  border-radius: 60px;
+  width: fit-content;
+  height: 100px;
+  font-weight: bold;
+  font-size: 2.5em;
+  color: #00376E;
+  margin-left: 50px;
+  margin-top: 50px;
+  
+}
+#module1{
+    display: flex;
+    flex-direction: column;
+}
+.para{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: none;
+    color: #00376E;
+    line-height: 1.8;
+    letter-spacing: 5px;
+    text-align: left;
+    display: inline;
+}
+.para2{
+    font-size: 16px;
+    line-height: 31px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    text-align: center;
+    color: #3498DB;
+    font-weight: bold;
+}
+input[type='text']{
+    width: 100%;
+    height: 40px;
+}
+input[type='number']{
+    width: 100%;
+    height: 40px;
+}
+input[type='email']{
+    width: 100%;
+    height: 40px;
+}
+.p1, .p2, .p3, .p4, .p5, .p6{
+    color: red;
+}
+
+

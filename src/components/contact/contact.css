@@ -1,0 +1,23 @@
+#contact{
+display: flex;
+flex-direction: row;
+background-color: blue;
+padding: 50px;
+}
+
+h1,h2,p{
+    color: white;
+}
+.flex1{
+    width: 33.333333%;
+}
+.flex2{
+    width: 33.333333%;
+}
+.flex3{
+    width: 33.333333%;
+}
+#ecsimg{
+    height: 35px;
+    width: fit-content;
+}

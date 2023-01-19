@@ -1,0 +1,14 @@
+.video{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+
+#h1{
+    color: #00376E;
+    width: 50%;
+}
+
+iframe{
+    width: 50%
+}

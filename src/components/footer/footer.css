@@ -1,0 +1,17 @@
+.copy{
+    height: 100px;
+    text-align: center;
+    padding: 30px;
+}
+#blackimg{
+    height: 30px;
+    width: fit-content;
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 100px;
+    padding-bottom: 15px;
+}
